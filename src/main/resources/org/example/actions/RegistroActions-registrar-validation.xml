@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE validators PUBLIC
+        "-//Apache Struts//XWork Validator 1.0.3//EN"
+        "http://struts.apache.org/dtds/xwork-validator-1.0.3.dtd">
+<validators>
+    <field name="alumno.nombre">
+        <field-validator type="requiredstring">
+            <message>Introduce tu nombre.</message>
+        </field-validator>
+    </field>
+    <field name="alumno.apellidos">
+        <field-validator type="requiredstring">
+            <message>Introduce tu apellido.</message>
+        </field-validator>
+    </field>
+    <field name="alumno.dni">
+        <field-validator type="requiredstring">
+            <message>Introduce tu DNI.</message>
+        </field-validator>
+    </field>
+    <field name="alumno.direccion">
+        <field-validator type="requiredstring">
+            <message>Introduzca su dirección.</message>
+        </field-validator>
+    </field>
+    <field name="alumno.poblacion">
+        <field-validator type="requiredstring">
+            <message>Introduzca su población.</message>
+        </field-validator>
+    </field>
+    <field name="alumno.email">
+        <field-validator type="requiredstring">
+            <message>Introduzca su email.</message>
+        </field-validator>
+    </field>
+    <field name="alumno.edad">
+        <field-validator type="int">
+            <param name="min">18</param>
+            <message>Introduzca su edad.</message>
+        </field-validator>
+    </field>
+    <field name="alumno.curso">
+        <field-validator type="requiredstring">
+            <message>Introduzca el curso.</message>
+        </field-validator>
+    </field>
+    <field name="alumno.FechaInicio">
+        <field-validator type="required">
+            <message>Introduzca la fecha de inicio.</message>
+        </field-validator>
+    </field>
+    <field name="alumno.FechaFin">
+        <field-validator type="required">
+            <message>Introduzca la fecha fin.</message>
+        </field-validator>
+    </field>
+</validators>
