@@ -28,7 +28,7 @@
       <action name="acceder" class="org.example.actions.RegistroActions" method="acceder">
           <result name="success">datos.jsp</result>
           <param name="userSession" />
-          <result name="input">index2.jsp</result>
+          <result name="input">index.jsp</result>
       </action>
   </package>
 

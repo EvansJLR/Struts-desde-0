@@ -72,14 +72,14 @@
           <td class = "evenRow">
             <s:fielderror fieldName = "alumno.FechaInicio"/>
             <s:text name = "form.message.FechaInicio"/>
-            <s:textfield type="date" name = "alumno.FechaInicio" min="2022-02-25" max="2024-01-01"/>
+            <s:textfield type="date" name = "alumno.FechaInicio" min="2023-01-01" max="2024-12-31"/>
           </td>
       </tr>
       <tr>
           <td class = "evenRow">
             <s:fielderror fieldName = "alumno.FechaFin"/>
             <s:text name = "form.message.FechaFin"/>
-            <s:textfield type ="date" name = "alumno.FechaFin" min="2022-02-25" max="2023-01-01"/>
+            <s:textfield type ="date" name = "alumno.FechaFin" min="2023-01-01" max="2024-12-31"/>
           </td>
       </tr>
 

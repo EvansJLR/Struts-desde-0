@@ -27,6 +27,9 @@
      </tr>
   </table>
   </s:form>
+  <div>
+       <p><s:text name="access.message3" /><a href="<s:url action="registro" />">registrarse?</a>
+    </div>
 <hr>
 </body>
 </html>
